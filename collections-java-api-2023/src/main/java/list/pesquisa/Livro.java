@@ -3,11 +3,12 @@ package main.java.list.pesquisa;
 public class Livro {
     String titulo;
     String autor;
-    int anoPublicação;
-    public Livro(String titulo, String autor, int anoPublicação) {
+    int anoPublicacao;
+    
+    public Livro(String titulo, String autor, int anoPublicacao) {
         this.titulo = titulo;
         this.autor = autor;
-        this.anoPublicação = anoPublicação;
+        this.anoPublicacao = anoPublicacao;
     }
     public String getTitulo() {
         return titulo;
@@ -16,12 +17,17 @@ public class Livro {
         return autor;
     }
     public int getAnoPublicação() {
-        return anoPublicação;
+        return anoPublicacao;
     }
+    /*@Override
+    public String toString() {
+        return "Livro [titulo=" + titulo + ", autor=" + autor + ", anoPublicação=" + anoPublicacao + "]";
+    }*/
     @Override
     public String toString() {
-        return "Livro [titulo=" + titulo + ", autor=" + autor + ", anoPublicação=" + anoPublicação + "]";
+        return "Livro [titulo=" + titulo + ", autor=" + autor + ", anoPublicacao=" + anoPublicacao + "]";
     }
+
     
     
     
